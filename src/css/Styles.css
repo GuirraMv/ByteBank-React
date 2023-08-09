@@ -18,6 +18,11 @@
     color: #CBCBCB;
 }
 
-.text-green {
+.text-black {
+    color: #000
+}
+
+.text-active {
+    font-weight: 500;
     color: #47A138;
 }
