@@ -1,13 +1,15 @@
-import React from 'react'
-import '../css/Styles.css'
-import Menu from './Menu'
+import React from "react";
+import "../css/Styles.css";
+import Menu from "./Menu";
+import Card from "./Card";
 
 const Container: React.FC = () => {
-    return (
-        <div className='bg-theme w-full h-full flex flex-row '>
-            <Menu />
-        </div>
-    )
-}
+  return (
+    <div className="bg-theme w-full h-full flex flex-row ">
+      <Menu />
+      <Card />
+    </div>
+  );
+};
 
-export default Container
+export default Container;

@@ -6,12 +6,16 @@
     background-color: #000;
 }
 
-.bg-collumn {
+.bg-column {
     background-color: #f5f5f5;
 }
 
 .bg-grey {
     background-color: #CBCBCB;
+}
+
+.bg-green {
+    background-color: #47A138;
 }
 
 .text-grey {
@@ -24,6 +28,10 @@
 
 .text-black {
     color: #000
+}
+
+.text-black:hover {
+    color:  #789e71;
 }
 
 .text-active {
