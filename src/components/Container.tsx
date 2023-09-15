@@ -5,7 +5,7 @@ import Card from "./Card";
 
 const Container: React.FC = () => {
   return (
-    <div className="bg-theme w-full h-full flex flex-row ">
+    <div className="bg-theme w-full h-full flex flex-row justify-center">
       <Menu />
       <Card />
     </div>
